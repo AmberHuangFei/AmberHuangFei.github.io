@@ -1,0 +1,1159 @@
+/*Genneral Content*/
+html{scroll-behavior: smooth;}
+body{
+    margin:0;
+    padding:0;
+    background-color: #FBFBFB;
+}
+h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 3rem;
+    padding: 0;
+    margin:0;
+}
+h2{
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.5em;
+    font-weight: 600;
+}
+
+h3{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h4{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h5{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h6{
+    font-family:  'Rubik', sans-serif;
+    font-size: 24px;
+    margin: 0;
+}
+
+p{
+    margin:0;
+    font-size: 18px;
+    line-height: 2rem;
+    font-family: 'Rubik', sans-serif;
+}
+li{
+    margin:0;
+    font-size: 18px;
+    line-height: 2rem;
+    font-family: 'Rubik', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*Home*/
+/*banner sectiion*/
+
+#Mainbanner{
+    height: 850px;
+    width:auto;
+    background-image: url("img/Bannertest1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.MainbannerNew{
+    width: auto;
+    height: max-content;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    Padding-left:6%;
+    padding-right:6%;
+}
+.BannertextM{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.starstyle{
+    width: auto;
+    height: 50px;
+}
+
+#textbox{
+    height: auto;
+    width: auto;
+    margin:20rem;
+    text-align: center;
+}
+
+#arrowdown{
+    display:flex;
+    margin:0px;
+    justify-content: center;
+    flex-direction: column;
+}
+#seemore{
+    width: auto;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+}
+#seemore p{
+    margin-top: 5px;
+}
+/*Nav sectiion*/
+.nav{
+    display: flex;
+    height: 55px;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    position:fixed;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 5px 9px #74727228;
+ 
+
+    
+}
+.navwrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    -webkit-box-pack: justify;
+}
+.navitem{
+
+    padding-left: 1rem;
+    padding-right:1rem;
+text-align: inherit;
+   
+}
+.navstyle{
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    color:black;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.navstyle:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+    text-decoration: underline;
+
+}
+/*Work display sectiion*/
+#workT{
+    margin-top:30px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+.wrapper{
+    background-color: #FBFBFB;
+    padding-left:10%;
+    padding-right: 10%;
+    
+}
+.wrapperkid{
+    display: block;
+
+
+}
+
+.Gcontainer h1{
+    text-align: center;
+}
+.Workcontainer{
+
+    flex-direction: column;
+
+}
+.workblockcontain{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+}
+.workblock{
+
+background-color: #FBFBFB;
+display: flex;
+flex-direction: column;
+width: 48%;
+min-width:400px;      
+}
+.workimg{
+    border-radius: 7px;
+    width: 100%;
+
+    height: auto;
+
+
+}
+.workblocklink{
+text-decoration: none;
+}
+.worktext{
+    margin-top:20px;
+    
+}
+
+/*tag style*/
+.tagwrapper{
+    display: inline-flex;
+    gap:10px;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+}
+.tag{
+    float: left;
+    width: auto;
+    height: 20px;
+    padding: 10px;
+    background-color: #F2F2F2;
+    border-width: 1px;
+    border-radius: 3px;
+    font-size: 1rem;
+    text-align: center;
+    flex-direction: row;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    box-shadow: 0px 4px 4px #7472721f
+    
+}
+/*footer*/
+.footer{
+display: flex;
+ flex-direction: column;
+ justify-content: center;
+ margin-top:30px;
+ margin-bottom: 30px;
+ width: auto;
+
+}
+.sepline{
+    width: auto;
+    height: 2px;
+    display: flex;
+    background-color: #A1A1A1;
+}
+.footercontent{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footertitle{
+    display: flex;
+    justify-content: center;
+}
+.Social{
+    display: inline-flex;
+    justify-content: center;
+    gap:55px
+
+
+}
+.socialcon{
+    width: 28px;
+    height: 30px;
+    flex-direction: row;
+
+    
+
+}
+
+
+
+
+/*About page*/
+.Acontainer{
+    background-color: #FBFBFB;
+    height: auto;
+    width: auto;
+    padding-left:10%;
+    padding-right: 10%;
+    
+}
+.aboutpic{
+    width:100%;
+    height: auto;
+    background-image: url("img/me.png");
+    background-repeat: no-repeat;
+    background-position: 0,50px;
+}
+
+
+.aboutGtain{
+    display: flex;
+    padding-top: 120px;
+
+}
+.Abouttext{
+    max-width: 50%;
+    margin-left: 4vw;
+}
+
+
+
+/*Paroli*/
+/*panel Nav!!!*/
+#rearchParoli{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+.panelnav{
+    width: 130px;
+    background-color: #FBFBFB;
+    margin-left: 30px;
+    position: fixed;
+    top:400px;
+    list-style-type: none;
+    padding-top:30px;
+    padding-left:50px;
+    padding-right: 50px;
+    padding-bottom:30px;
+    font-family:'Rubik', sans-serif ;
+    font-weight: 400;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px 5px #7472721f;
+
+}
+ul{
+    list-style-type: none;
+    padding:0px;
+}
+.Panellist{
+    align-content: center;
+}
+
+.scollstyle:hover{
+    text-decoration: underline;
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+
+
+
+/*panel Nav Ends*/
+
+
+#bannerimg{
+    margin-top: 20px;
+
+
+}
+.Pohighligher{
+    background-color:#fdc19b;
+
+}
+.Workheader{
+    display: flex;
+    flex-direction: column;
+}
+.workbanner{
+    width: auto;
+    height: 500px;
+    background-color: #A1A1A1;
+  
+}
+#bannerimg{
+    width: 100%;
+    height: auto;
+
+}
+.seconecontainer{
+ margin-left: 20%;
+ margin-right: 20%;
+ margin-top: 85px;
+
+
+
+}
+.headerinfo{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+.projectinfo{
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+    flex-direction: column;
+    line-height: 2;
+}
+#phaseimg{
+    width: 100%;
+    height: auto;
+    min-height: 20%;
+    margin-top: 40px;
+ 
+
+}
+#affinitymap{
+    margin-top: 40px;
+    width: 100%;
+    height: 100%;
+}
+#problemstatement{
+    background-color: #F2F2F2;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    justify-content: left;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top:40px;
+    padding-bottom:40px;
+    flex-wrap: wrap;
+    margin-top: 140px;
+}
+
+.strongP{
+    color:#df7d06 ;
+    font-weight: 400;
+}
+.researchsec{
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+    flex-direction: column;
+    line-height: 2;
+    margin-top: 140px;
+ 
+}
+#competiveresult{
+margin-top:40px;
+}
+
+.findinggrd{
+    display: flex;
+}
+.painpointwrap{
+    display: flex;
+    justify-content: space-between;
+    gap:50px
+}
+.findings{
+    max-width: 500px;
+    display: inline-flex;
+    flex-direction: column;
+
+}
+.painpoint{
+    margin-top: 30px;
+}
+.approch{
+    margin-top:20px
+}
+.gridtitle{
+    color: rgb(255, 153, 0);
+    font-weight: 600;
+}
+
+.implicationwrap{
+
+    align-items: center;
+
+
+}
+.improveimage{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+.implit{
+margin-top: 40px;
+}
+.surveysec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.surveyreult{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin:1.5vh;
+
+
+}
+.surveyreult p{
+    max-width: 400px;
+}
+.interviewquote{
+    display: flex;
+    flex-direction: column;
+    background-color: #FEB38733;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    margin-top: 3vh;
+    padding-left:25%;
+    padding-right:25%;
+    padding-top:5%;
+    padding-bottom:5%;
+
+    line-height: 2rem;
+    border-radius: 5px;
+
+}
+.quotename{
+    text-align: right;
+}
+
+.interviewkey{
+margin-top: 40px;
+  
+    
+}
+
+.persona{
+    margin-top: 140px;
+}
+.personawrap{
+    display: flex;
+    flex-direction: column;
+
+}
+#Personaimg{
+    margin-top: 3%;
+    width: 100%;
+    height: auto;
+}
+.researchlist{
+    margin-top:40px
+}
+.testresult{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.testnumber{
+    margin: 1.5vh;
+}
+.FinalUi{
+    margin-top:140px;
+}
+#fianlplaceholder{
+    width: auto;
+    height: 350px;
+    min-height: 200px;
+    
+}
+.displayright{
+    margin-top:20%;
+    display: flex;
+
+
+}
+.Textleft{
+    padding-top:8%;
+    padding-right:5%;
+    padding-bottom: 8%;
+
+
+}
+.displayleft{
+    margin-top:5%;
+    display: flex;
+}
+
+.Textright{
+    padding-top:8%;
+    padding-left:5%;
+    padding-bottom: 8%;
+
+}
+.Takeaway{
+    width: auto;
+    height: auto;
+    background-color: #f2f2f2;
+    display: flex;
+    padding-left:20%;
+    padding-top:5%;
+    padding-right:20%;
+    padding-bottom: 5%;
+    margin-top: 140px;
+
+}
+.growth{
+    max-width: 500px;
+    margin-right:40px;
+}
+.insight{
+    max-width: 500px;
+}
+.buttonwrapper{
+    width: auto;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+   
+}
+.viewmore{
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+    padding:15px;
+    border-image: linear-gradient(60deg,#CEE3F2,#FCE9C2, #F9C8D2) 1;
+    border-width: 3px;
+    background-color: #fbfbfb;
+    border-radius: 5px;
+
+}
+
+.btn-grad {background-image: linear-gradient(to right, #CEE3F2 4%, #FCE9C2  51%, #F9C8D2  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: black;  
+   border-style: none;
+   box-shadow: 0px 4px 4px #7472721f;
+          
+ 
+   border-radius: 10px;
+   display: block;
+   
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: black;
+   text-decoration: none;
+   cursor: pointer;
+ }
+
+
+
+/*Plip Board*/
+.researchiconwrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.researchicon{
+    width: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.researchtextp{
+    margin-top: 40px;
+}
+.bignumberwrap{
+    display: flex;
+   align-items: center;
+}
+.bignumberwrap h1{
+    color:#e651af ;
+}
+#bignumbertext{
+    margin-left: 40px;
+    width: 400px;
+    height: auto;
+  
+}
+.biggphasewrap{
+    margin-top: 40px;
+}
+.phasewrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+.numberP{
+    background-color: #e651af;
+    width: 55px;
+    height: 55px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+}
+
+.phases{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.phases h2{
+    margin-top:0;
+    margin-bottom: 10px;
+}
+.numberT{
+    margin-top: 10px;
+}
+.RconStyle{
+    max-width: 50px;
+    height: auto;
+}
+.hmwstatement h3{
+    color: #e651af;
+}
+.ResearchpCT{
+    max-width: 350px;
+}
+.Plipisignt{
+    margin-top: 40px;
+}
+.gridtitlep{
+    color: #e651af;
+    font-weight: 600;
+}
+.displayrightp{
+    margin-top:5%;
+    display: flex;
+
+}
+.Plipstrong{
+    color: #e651af;
+    font-weight: 400;
+}
+
+
+
+
+
+/*moon&back*/
+.MconStyle{
+    max-width: 90px;
+    height: auto;
+}
+.MconStyleR{
+    max-width: 70px;
+    height: auto;
+
+}
+.finalTtextwrapM{
+    height: max-content;
+    max-width: 700px;
+}
+.finalTtextwrapMm{
+    height: max-content;
+    max-width: 700px;
+    margin-top: 200px;
+
+}
+
+#fianlplaceholderM{
+    width: 80%;
+}
+#fianlplaceholderMS{
+    width: 110%;
+}
+.interviewquotem{
+    display: flex;
+    flex-direction: column;
+    background-color: #F6C9D2;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    margin-top: 3vh;
+    padding-left:25%;
+    padding-right:25%;
+    padding-top:5%;
+    padding-bottom:5%;
+
+    line-height: 2rem;
+    border-radius: 5px;
+
+}
+#problemstatementm{
+    background-color: #F6C9D2;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    justify-content: left;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top:40px;
+    padding-bottom:40px;
+    flex-wrap: wrap;
+    margin-top: 140px;
+}
+.Moonstrong{
+    color: #EC716C;
+    font-weight: 400;
+}
+.MoonstrongT{
+    color: #EC716C;
+}
+
+
+/*bitecheck*/
+.bitepicwrapper{
+    display: flex;
+}
+.bitesectext{
+    max-width: 55%;
+    padding-right: 40px;
+    padding-top: 5%;
+    
+}
+.bitesectext h3{
+    margin: 0;
+}
+.bitesectionimage{
+    width: 440px;
+    height: 500px;
+    background-image: url("img/sidepic.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.biteside{
+    width: 100%;
+    height: auto;
+}
+.TextleftB{
+    padding-top:8%;
+    padding-right:5%;
+    padding-bottom: 8%;
+    height: max-content;
+    width: 450px;
+}
+.TextrightB{
+    padding-top:8%;
+    padding-left:5%;
+    padding-bottom: 8%;
+        height: max-content;
+        width: 450px;
+
+}
+#fianlplaceholderb{
+    width: 100%;
+    height: auto;
+}
+/*JOBCONE*/
+.strongjob{
+    color:#6006df ;
+    font-weight: 400;
+
+}
+.interviewquestionswrap{
+    display: flex;
+    justify-content: space-between;
+}
+.interviewquestions{
+    background-color: #eeecf7;
+    width: 43%;
+    border-radius: 7px;
+    margin-top: 40px;
+    padding: 25px;
+    box-shadow:  4px 4px 8px 0px rgba(194, 194, 195, 0.603);
+}
+.interviewquestions li{
+ font-size: 15px;
+}
+.Triwrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    
+}
+.Tripic{
+height: max-content;
+width: 43%;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+.tirman{
+    
+    width: 40%;
+    height: auto;
+}
+#problemstatementJ{
+    background-color: rgb(221, 221, 221);
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    justify-content: left;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top:40px;
+    padding-bottom:40px;
+    flex-wrap: wrap;
+}
+.TestJ{
+    margin-top: 30px;
+}
+#fianlplaceholderJOB{
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    box-shadow: 24px 12px 2px 1px rgba(0, 0, 255, .2);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1300px) {
+
+.panelnav{
+    display: none;
+}
+}
+
+
+
+
+/*home page responsive*/
+
+@media only screen and (max-width: 1000px) {
+
+    /*home banner test*/
+    .MainbannerNew{
+        width: auto;
+        height: max-content;
+        display: block;
+       align-content: center;
+        Padding-left:6%;
+        padding-right:6%;
+        padding-top: 100px;
+    }
+    .BannertextM{
+        display: block;
+        align-content: center;
+
+    }
+    .starstyle{
+ 
+
+        height: 40px;
+        
+    }
+    .Bannerpicture{
+        width: 50%;
+        height: auto;
+    }
+
+
+
+
+
+
+
+    .workblockcontain{
+        display: block;
+
+       
+    }
+    .workblock{
+        margin-top: 100px;
+        background-color: #FBFBFB;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-width:400px;      
+        }
+      
+
+
+        /*paroli*/
+
+        .seconecontainer{
+            margin-left: 10%;
+            margin-right: 10%;
+  
+           
+           }
+        .surveysec{
+            display: block;
+        }
+        .surveyreult{
+          
+            align-items: center;
+            margin:1.5vh;
+        
+        
+        }
+       
+           .headerinfo{
+            display: block;
+        }
+        #problemstatement{
+            height: auto;
+            display: block;
+            flex-direction: column;
+            margin-top: 80px;
+            justify-content: left;
+            justify-content: center;
+            padding-left: 20%;
+            padding-right: 20%;
+            flex-wrap: wrap;
+        
+        
+        }
+        .painpointwrap{
+            display: block;
+        }
+        .findings{
+        margin-top: 40px;
+        
+        }
+        .interviewinsight{
+            display: block;
+
+        }
+        #userneed{
+            margin-left: 0px;
+        }
+        .testresult{
+            display: block;
+        }
+        .displayright{
+            display: block;
+            margin-top: 130px;
+         
+        }
+        .Textright{
+            padding-top:0%;
+            padding-left:0%;
+            padding-bottom: 0%;
+            margin-top: 40px;
+        
+        }
+        .Textleft{
+            padding-top:0%;
+            padding-right:0%;
+            padding-bottom: 0%;
+            margin-top: 40px;
+        
+        
+        }
+        .ImageF{
+            margin-top: 40px;
+        }
+        .Takeaway{
+            display: block;
+        }
+        .insight{
+            margin-top: 40px;
+        }
+        .implicationwrap{
+            display: block;
+        
+        }
+     
+  
+
+        /*Plipboard*/
+        .researchiconwrapper{
+            display: block;
+
+
+        }
+        .phasewrapper{
+            display: block;
+
+            margin-top: 40px;
+        
+        }
+        .researchicon{
+            max-width: auto;
+         
+           }
+        .phases{
+            margin-top: 40px;
+        }
+        .displayrightp{
+            margin-top:5%;
+            display: block;
+        
+        }
+        /*.Bitecheck*/
+        .bitepicwrapper{
+            display: block;
+        }
+        .bitesectext{
+            max-width: 100%;
+            padding-right: 0;
+            
+        }
+        .biteside{
+            width: 60%;
+        }
+        .bitesectionimage{
+            width: auto;
+            height: 400px;
+            background-position: 0px;
+            margin-top: 30px;
+        }
+
+}
+        
+
+
+    
+
+
+   
+
+
+
